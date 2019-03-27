@@ -5,6 +5,8 @@
   <meta charset="utf-8">
 
   <title>My Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
 
   <link rel="stylesheet" href="css/index.css">
 
@@ -13,11 +15,9 @@
   <![endif]-->
 </head>
 
+<div class="container">
 <body>
-  <div class="container">
-  <section class="top">
   <header>
-    <div class="top-content">
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
@@ -25,13 +25,18 @@
         <a href="#">Contact</a>
     </nav>
   </header>
+  <section class="top-content">
+  <div class="top-content-text">
+  <img src="https://previews.123rf.com/images/jackf/jackf1604/jackf160402802/55663137-adult-girl-programming-olive-cleaning-and-mealing-process-inside-factory.jpg">
   <h1>Johnny Appleseed</h1>
   <h3>Technology is my jam.</h3>
 <p>Occasionally I have time to work on side projects, if you're interested, let me know by signing up on this website.</p>
 <button>Let's Team Up</button>
 </div>
-</section class="top">
-<div class="middle-content">
+</section>
+<!-- End of top-content-->
+<section class="middle-content">
+<div class="middle-content-text">
 <h2>Listen Up....</h2>
 <p>Et a parturient duis dictumst tristique mi a sociis mi hendrerit ultrices nisl urna pellentesque.</p>
 <h3>Stuff I'm good at....</h3>
@@ -41,13 +46,51 @@
 <li>Dog feeding</li>
 <li>Songs for dogs on ukulele</li>
 </ul>
-
 </div>
+</section>
+<!-- End of middle-content-->
+<section class="bottom-content">
+<h2>Work History</h2>
+<div class="work-table">
+<div class="work-table-row">
 
-<div>
+    <div class="table-head">Years</div>
+    <div class="table-head">Company</div>
+    <div class="table-head">Title</div>
+    <div class="table-head">Tech Used</div>
+  </div>
 
-</div>
+    <div class="work-table-row">
+
+    <div class="table-cell">1</div>
+        <div class="table-cell">Apple</div>
+        <div class="table-cell">Sofware Engineer</div>
+        <div class="table-cell">Swift</div>
+      </div>
+
+      <div class="work-table-row">
+
+      <div class="table-cell">2</div>
+          <div class="table-cell">Microsoft</div>
+          <div class="table-cell">Computer Scientist</div>
+          <div class="table-cell">.Net</div>
+        </div>
+
+        <div class="work-table-row">
+
+        <div class="table-cell">3</div>
+              <div class="table-cell">Amazon</div>
+              <div class="table-cell">Dev Ops</div>
+              <div class="table-cell">AWS</div>
+          </div>
+        </div>
+        <!-- End of work-table -->
+  </section>
+<!-- End of bottom-content -->
 </div>
 <!-- End of container -->
+<footer>
+  <p>Copyright Awesomeness 2019</p>
+</footer>
 </body>
 </html>

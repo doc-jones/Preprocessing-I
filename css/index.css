@@ -134,3 +134,28 @@ html,
 body {
   height: 100%;
 }
+.work-table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.work-table .work-table-row {
+  display: table-row-group;
+}
+.work-table .work-table-row .table-head {
+  display: table-header-group;
+  font-weight: bold;
+}
+.work-table .work-table-row .table-cell {
+  display: table-cell;
+  text-align: left;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
