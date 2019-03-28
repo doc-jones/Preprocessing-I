@@ -259,7 +259,7 @@ img {
   display: table;
   border-collapse: collapse;
   width: 100%;
-  font-display: Noto Sans, sans serif;
+  font-family: Noto Sans, sans serif;
 }
 .bottom-content .work-table .work-table-row {
   display: table-row-group;
