@@ -157,7 +157,9 @@ h4 {
 }
 
 	nav {
-		margin-left: 50%;
+		margin-right: 5%;
+		display: flex;
+		justify-content: flex-end;
     
     	@media( max-width: 515px ) {
      		margin-left: 0;
@@ -210,6 +212,10 @@ h4 {
 				height: 45px;
 				font-size: 1.8rem;
 				border-radius: 8px;
+				button:hover {
+					background-color: black;
+					color: whitesmoke;
+				}
 				a {
 					color: whitesmoke;
 					text-decoration: none;
@@ -252,7 +258,7 @@ h4 {
 	.bottom-content {
 		margin: 30px 5%;
 		font-size: @p;
-		
+
 		.work-table {
 			display: table;
 			border-collapse: collapse;

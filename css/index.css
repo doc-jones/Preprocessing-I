@@ -166,7 +166,9 @@ h4 {
   margin: 0 auto;
 }
 nav {
-  margin-left: 50%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
 }
 @media (max-width: 515px) {
   nav {
@@ -215,6 +217,10 @@ img {
   height: 45px;
   font-size: 1.8rem;
   border-radius: 8px;
+}
+.top-content .top-content-text button button:hover {
+  background-color: black;
+  color: whitesmoke;
 }
 .top-content .top-content-text button a {
   color: whitesmoke;
