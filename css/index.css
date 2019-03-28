@@ -243,13 +243,13 @@ img {
   border: 0.5px solid lightgray;
 }
 .bottom-content {
-  margin: 20px 5%;
+  margin: 30px 5%;
   font-size: 1.8rem;
 }
 .bottom-content .work-table {
   display: table;
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
 }
 .bottom-content .work-table .work-table-row {
   display: table-row-group;
