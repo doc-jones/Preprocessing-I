@@ -205,12 +205,19 @@ h4 {
 			button {
 				display: block;
 				background-color: gray;
-				color: whitesmoke;
 				cursor: pointer;
 				width: 145px;
 				height: 45px;
 				font-size: 1.8rem;
 				border-radius: 8px;
+				a {
+					color: whitesmoke;
+					text-decoration: none;
+				}
+					a:hover {
+						background-color: black;
+						color: white;
+					}
 			
 				@media( max-width: 515px ) {
 				  width: 90%;
@@ -226,19 +233,21 @@ h4 {
 		}
 	}
 
+.middle-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 25px 5%;
 
-	.middle-content {
-		display: flex;
-		flex-wrap: wrap;
-		margin: 25px 5%;
-		width: 35%;
-		height: 50%;
+	.middle-content-text {
+		width: 48%;
 		font-size: @p;
 		li {
 			padding: 10px;
 			border: .5px solid lightgray;
 		}
 	}
+}
 
 	.bottom-content {
 		margin: 30px 5%;
@@ -247,6 +256,7 @@ h4 {
 			display: table;
 			border-collapse: collapse;
 			width: 100%;
+			font-display: @Noto;
 			.work-table-row {
 				display: table-row-group;
 			.work-table-row:nth-child(even) {

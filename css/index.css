@@ -210,12 +210,19 @@ img {
 .top-content .top-content-text button {
   display: block;
   background-color: gray;
-  color: whitesmoke;
   cursor: pointer;
   width: 145px;
   height: 45px;
   font-size: 1.8rem;
   border-radius: 8px;
+}
+.top-content .top-content-text button a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.top-content .top-content-text button a:hover {
+  background-color: black;
+  color: white;
 }
 @media (max-width: 515px) {
   .top-content .top-content-text button {
@@ -233,12 +240,14 @@ img {
 .middle-content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   margin: 25px 5%;
-  width: 35%;
-  height: 50%;
+}
+.middle-content .middle-content-text {
+  width: 48%;
   font-size: 1.8rem;
 }
-.middle-content li {
+.middle-content .middle-content-text li {
   padding: 10px;
   border: 0.5px solid lightgray;
 }
@@ -250,6 +259,7 @@ img {
   display: table;
   border-collapse: collapse;
   width: 100%;
+  font-display: Noto Sans, sans serif;
 }
 .bottom-content .work-table .work-table-row {
   display: table-row-group;
